@@ -1,0 +1,27 @@
+{
+  "name": "belajarnode",
+  "version": "1.0.0",
+  "description": "Belajar node Denny",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "belajarnode"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dennydap/belajarNode.git"
+  },
+  "keywords": [
+    "belajar",
+    "node"
+  ],
+  "author": "Denny Pradipta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dennydap/belajarNode/issues"
+  },
+  "homepage": "https://github.com/dennydap/belajarNode#readme"
+}
