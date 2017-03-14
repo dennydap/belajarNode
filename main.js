@@ -47,45 +47,47 @@
 
 ///////////////////////////
 
-//Deklarasi modul dan variable untuk EventEmitter
-var events = require('events');
-var eventEmitter = new events.EventEmitter();
+// //Deklarasi modul dan variable untuk EventEmitter
+// var events = require('events');
+// var eventEmitter = new events.EventEmitter();
 
-// Listener 1
-var listener1 = function listener1() {
-	console.log('Listener1 aktif');
-}
+// // Listener 1
+// var listener1 = function listener1() {
+// 	console.log('Listener1 aktif');
+// }
 
-// Listener 2
-var listener2 = function listener2() {
-	console.log('Listener2 aktif');
-}
+// // Listener 2
+// var listener2 = function listener2() {
+// 	console.log('Listener2 aktif');
+// }
 
-// Menghubungkan connection event dengan fungsi listener1
-console.log('Menyalakan Listener1...');
-eventEmitter.addListener('connection', listener1);
+// // Menghubungkan connection event dengan fungsi listener1
+// console.log('Menyalakan Listener1...');
+// eventEmitter.addListener('connection', listener1);
 
-// Menghubungkan connection event dengan fungsi listener2
-console.log('Menyalakan Listener2...');
-eventEmitter.on('connection', listener2);
+// // Menghubungkan connection event dengan fungsi listener2
+// console.log('Menyalakan Listener2...');
+// eventEmitter.on('connection', listener2);
 
-// Melakukan emit pada connection event
-eventEmitter.emit('connection');
+// // Melakukan emit pada connection event
+// eventEmitter.emit('connection');
 
-// Menghitung jumlah listeners
-var eventListeners = require('events').EventEmitter.listenerCount(eventEmitter, 'connection');
-console.log("Ada " + eventListeners + " Listener yang melakukan listening pada connection event.");
+// // Menghitung jumlah listeners
+// var eventListeners = require('events').EventEmitter.listenerCount(eventEmitter, 'connection');
+// console.log("Ada " + eventListeners + " Listener yang melakukan listening pada connection event.");
 
-// Melepas listener1 dari eventEmitter
-console.log('Mematikan Listener1...')
-eventEmitter.removeListener('connection', listener1);
-console.log('Listener1 sudah tidak melakukan listening lagi.');
+// // Melepas listener1 dari eventEmitter
+// console.log('Mematikan Listener1...')
+// eventEmitter.removeListener('connection', listener1);
+// console.log('Listener1 sudah tidak melakukan listening lagi.');
 
-// Melakukan emit pada connection event
-eventEmitter.emit('connection');
+// // Melakukan emit pada connection event
+// eventEmitter.emit('connection');
 
-// Menghitung kembali jumlah listeners
-var eventListeners = require('events').EventEmitter.listenerCount(eventEmitter, 'connection');
-console.log("Ada " + eventListeners + " Listener yang melakukan listening pada connection event.");
+// // Menghitung kembali jumlah listeners
+// var eventListeners = require('events').EventEmitter.listenerCount(eventEmitter, 'connection');
+// console.log("Ada " + eventListeners + " Listener yang melakukan listening pada connection event.");
 
-console.log("Selesai");
+// console.log("Selesai");
+
+////////////////////////////////
