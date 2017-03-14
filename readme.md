@@ -4,4 +4,6 @@ Selamat datang di repo Belajar NodeJS. Repo ini adalah bukti progress saya dalam
 
 Saya menggunakan komentar dalam bahasa Indonesia, guna mempermudah kalian yang ingin belajar NodeJS, namun terhambat karena menggunakan bahasa Inggris. Jika ingin melihat versi asli bahasa Inggrisnya, silahkan kunjungi TutorialsPoint.
 
-- Denny Pradipta
+Thanks
+
+Denny Pradipta
